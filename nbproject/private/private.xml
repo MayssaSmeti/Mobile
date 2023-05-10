@@ -3,11 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Mayssa/Desktop/WorkShops-CodenameOne-master/src/com/mycompany/gui/SignUpForm.java</file>
-            <file>file:/C:/Users/Mayssa/Desktop/WorkShops-CodenameOne-master/src/com/mycompany/gui/SignInForm.java</file>
-            <file>file:/C:/Users/Mayssa/Desktop/WorkShops-CodenameOne-master/src/com/mycompany/services/ServiveUtilisateur.java</file>
-            <file>file:/C:/Users/Mayssa/Desktop/WorkShops-CodenameOne-master/src/com/mycompany/gui/SessionManager.java</file>
-            <file>file:/C:/Users/Mayssa/Desktop/WorkShops-CodenameOne-master/src/com/mycomany/entities/Utilisateur.java</file>
+            <file>file:/C:/Users/Mayssa/Desktop/MOBILE_2/src/com/mycompany/services/ServiveUtilisateur.java</file>
+            <file>file:/C:/Users/Mayssa/Desktop/MOBILE_2/src/com/mycompany/gui/ProfileForm.java</file>
+            <file>file:/C:/Users/Mayssa/Desktop/MOBILE_2/src/com/mycompany/gui/SignInForm.java</file>
         </group>
     </open-files>
 </project-private>
