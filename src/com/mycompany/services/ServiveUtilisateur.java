@@ -148,7 +148,7 @@ public class ServiveUtilisateur {
     public String getPasswordByEmail(String email, Resources res ) {
         
         
-        String url = Statics.BASE_URL+"/api/getPasswordByEmail?email="+email;
+        String url = Statics.BASE_URL+"/mobile/updatepassword?email="+email;
         req = new ConnectionRequest(url, false); //false ya3ni url mazlt matba3thtich lel server
         req.setUrl(url);
         
