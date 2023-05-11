@@ -32,7 +32,7 @@ import java.util.ArrayList;
 public class ListConstatForm extends BaseForm{
     Form current;
     public ListConstatForm(Resources res) {
-        super("Newsfeed",BoxLayout.y()); //herigate men Newsfeed w l formulaire vertical
+        super("Newsfeed",BoxLayout.y()); 
         Toolbar tb = new Toolbar(true);
         current = this ;
         setToolbar(tb);
@@ -72,7 +72,7 @@ public class ListConstatForm extends BaseForm{
         for (Constat c : listc) {
            
             TextArea textArea = new TextArea();
-            textArea.setText("Id: " + c.getId() + "\n" +
+            textArea.setText(
                      "Nom_client: " + c.getNomclient_e() + "\n" +
                      "Prénom_client: " + c.getPrenomclient_e() + "\n" +
                      "Type_Véhicule: " + c.getTypevehicule_e() + "\n" +

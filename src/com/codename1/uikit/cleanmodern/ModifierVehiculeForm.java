@@ -97,12 +97,12 @@ public class ModifierVehiculeForm extends BaseForm {
                    InfiniteProgress ip = new InfiniteProgress();
                     final Dialog iDialog = ip.showInfiniteBlocking();
                     Vehicule ve = new Vehicule();
-                    ve.setId(v.getId());
-                    ve.setMatricule(v.getMatricule());
-                    ve.setType(v.getType());
-                    ve.setMarque(v.getMarque());
-                    ve.setNb_ch(v.getNb_ch());
+                    ve.setMatricule(matricule.getText());
+                    ve.setType(type.getSelectedItem().toString());
+                    ve.setMarque(marque.getSelectedItem().toString());
+                    ve.setNb_ch(nb_ch.getText());
                     System.out.println("data  vehicule == "+v);
+ 
                  if(ServiceVehicule.getInstance().modifierVehicule(v)){   
                          new ListVéhiculeForm(res).show();
                      }

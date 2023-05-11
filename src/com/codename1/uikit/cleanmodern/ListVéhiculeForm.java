@@ -25,6 +25,7 @@ import com.mycompany.entities.Vehicule;
 import com.mycompany.services.ServiceVehicule;
 import java.util.ArrayList;
 
+
 /**
  *
  * @author USER
@@ -69,7 +70,7 @@ public class ListVéhiculeForm extends BaseForm {
         for (Vehicule v : listv) {
            
             TextArea textArea = new TextArea();
-            textArea.setText("Id: " + v.getId() + "\n" +
+            textArea.setText(
                      "Matricule : " + v.getMatricule() + "\n" +
                      "Type_Véhicule: " + v.getType() + "\n" +
                      "Marque_Véhicule: " + v.getMarque() + "\n" +
